@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant Menu</title>
+        <link rel="shortcut icon" href="app/public/favicon.ico" />
+        <script src="app/public/angular.min.js"></script>
+        <script src="app/public/angular-ui-router.min.js"></script>
+        <script src="app/modules/menuapp.module.js"></script>
+        <script src="app/modules/data.module.js"></script>
+        <script src="app/services/menudata.service.js"></script>
+        <script src="app/components/categories.component.js"></script>
+        <script src="app/components/categories.controller.js"></script>
+        <script src="app/components/items.component.js"></script>
+        <script src="app/components/items.controller.js"></script>
+        <script src="routes.js"></script>
+    </head>
+    <body ng-app="MenuApp">
+        <div ui-view></div>
+    </body>
+</html>
